@@ -1,0 +1,19 @@
+{
+  "name": "github-action-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phidinhthang/github-action-example.git",
+  "author": "phidinhthang <phidinhthang1112@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  }
+}
